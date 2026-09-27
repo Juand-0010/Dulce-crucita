@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dulce Crucita · Repostería artesanal en Cali</title>
+  <meta name="description" content="Tortas, alfajores, brownies y galletas artesanales en Cali. Descubre Dulce Crucita y cuéntanos qué quieres para tu próximo momento dulce.">
+  <meta name="theme-color" content="#491c32">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c63782'/%3E%3Ctext x='32' y='46' fill='white' text-anchor='middle' font-family='Georgia' font-size='44'%3Ec%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#coleccion">Ir al catálogo</a>
+<header class="header" id="header">
+  <a class="brand" href="#inicio" aria-label="Dulce Crucita, inicio"><img src="assets/marca.jpg" alt="" width="48" height="48"><span>Dulce Crucita<small>REPOSTERÍA ARTESANAL</small></span></a>
+  <nav aria-label="Navegación principal"><a href="#coleccion">Nuestros dulces</a><a href="#esencia">Nuestra esencia</a><a href="#pedido" class="nav-order">Haz tu pedido <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main>
+<section class="journey" id="inicio" aria-label="Los momentos de Dulce Crucita">
+  <div class="stage">
+    <div class="scene is-active" data-scene="0"><img src="assets/alfajores.jpg" alt="Alfajores de Dulce Crucita con azúcar en polvo sobre una bandeja de madera" fetchpriority="high"><div class="shade"></div></div>
+    <div class="scene" data-scene="1"><img src="assets/galletas.jpg" alt="Galletas artesanales junto a un vaso de leche"><div class="shade"></div></div>
+    <div class="scene" data-scene="2"><img src="assets/compartir.jpg" alt="Alfajores rosados en forma de corazón para compartir"><div class="shade"></div></div>
+    <div class="scene-copy is-active" data-copy="0"><p class="eyebrow">HECHO A MANO EN CALI</p><h1>La vida sabe<br>más <em>dulce.</em></h1><p class="intro">Un alfajor. Una pausa.<br>Un pequeño momento para ti.</p><a class="button light" href="#coleccion">Descubre nuestros dulces <span aria-hidden="true">↗</span></a></div>
+    <div class="scene-copy" data-copy="1" inert><p class="eyebrow">EL GUSTO DE LO ARTESANAL</p><h2>Quédate<br>un <em>ratito.</em></h2><p class="intro">Hay días que solo necesitan<br>una galleta y buena compañía.</p><a class="button light" href="#coleccion">Encuentra tu antojo <span aria-hidden="true">↗</span></a></div>
+    <div class="scene-copy" data-copy="2" inert><p class="eyebrow">HECHO PARA COMPARTIR</p><h2>Los detalles<br>se <em>saborean.</em></h2><p class="intro">Para celebrar, regalar<br>o decir «pensé en ti».</p><a class="button light" href="#pedido">Hagamos tu pedido <span aria-hidden="true">↗</span></a></div>
+    <div class="scene-caption"><span id="scene-name">ALFAJORES ARTESANALES</span><span>DULCE CRUCITA · CALI, COLOMBIA</span></div>
+    <div class="journey-bottom"><a href="#coleccion" class="scroll-cue"><span class="scroll-line"></span>Un mundo de pequeños gustos</a><div class="chapters" aria-label="Escenas"><button class="active" data-go="0" aria-label="Escena 1: Alfajores" aria-current="true">01</button><span></span><button data-go="1" aria-label="Escena 2: Galletas">02</button><span></span><button data-go="2" aria-label="Escena 3: Compartir">03</button></div></div>
+  </div>
+</section>
+<section class="collection" id="coleccion">
+  <div class="section-top"><p class="eyebrow">NUESTRA COLECCIÓN</p><span class="small-note">De nuestra cocina a tus momentos.</span></div>
+  <div class="collection-heading"><h2>¿Qué se te<br><em>antoja hoy?</em></h2><p>Tortas para celebrar, cajitas para compartir y esos gustos que no necesitan una ocasión.</p></div>
+  <div class="categories" aria-label="Categorías del catálogo"><button data-category="tortas" aria-pressed="true">Tortas <sup>05</sup></button><button data-category="brownies" aria-pressed="false">Brownies <sup>03</sup></button><button data-category="alfajores" aria-pressed="false">Alfajores <sup>02</sup></button><button data-category="galletas" aria-pressed="false">Galletas <sup>01</sup></button></div>
+  <div id="products" class="products" aria-live="polite"></div>
+  <p class="catalog-note">Cada pedido se confirma contigo: disponibilidad, valor final y tiempos de entrega.</p>
+  <noscript><p>Consulta todos los productos en <a href="https://linktr.ee/dulcecrucita">nuestro catálogo</a>.</p></noscript>
+</section>
+<section class="essence" id="esencia">
+  <div class="essence-photo"><img src="assets/galletas.jpg" alt="Una pausa con galletas de Dulce Crucita" loading="lazy"><span>EL SABOR DE HACERLO A MANO</span></div>
+  <div class="essence-copy"><p class="eyebrow">SOMOS DULCE CRUCITA</p><h2>Cali tiene<br>sabor <em>propio.</em></h2><p>Repostería artesanal hecha con ingredientes reales, para momentos que se recuerdan.</p><p>Nos gusta estar en tus celebraciones y también en esos pequeños gustos de cualquier día. Cada creación es única, como el momento que quieres compartir.</p><a class="text-link" href="https://www.instagram.com/dulce_crucita/" target="_blank" rel="noopener">Conoce nuestra cocina en Instagram <span aria-hidden="true">↗</span></a></div>
+</section>
+<section class="order" id="pedido"><p class="eyebrow">TU PRÓXIMO MOMENTO DULCE</p><h2>Tú pones el momento.<br>Nosotros, <em>el dulce.</em></h2><p>Cuéntanos qué te gustaría pedir. Te contactaremos para confirmar los detalles, el valor y la entrega.</p><div class="order-actions"><a class="button light" href="https://forms.gle/tLFDsVEMkX9mi6sb9" target="_blank" rel="noopener">Hacer mi pedido <span aria-hidden="true">↗</span></a><a class="button outline" href="https://wa.me/573127881069" target="_blank" rel="noopener">Hablar por WhatsApp <span aria-hidden="true">↗</span></a></div><span class="order-location">HECHO CON AMOR EN CALI, COLOMBIA</span></section>
+</main>
+<footer><a class="footer-brand" href="#inicio">Dulce Crucita<span>Repostería artesanal</span></a><div><a href="https://www.instagram.com/dulce_crucita/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/@dulce_crucita" target="_blank" rel="noopener">TikTok ↗</a><a href="https://wa.me/573127881069" target="_blank" rel="noopener">WhatsApp ↗</a></div><small>Cali, Colombia · © <span id="year">2026</span> Dulce Crucita</small></footer>
+<dialog id="product-dialog" aria-labelledby="dialog-title"><button class="close-dialog" aria-label="Cerrar detalle">×</button><div class="dialog-layout"><img id="dialog-image" src="assets/9fbc78ef01fe762d.png" alt=""><div class="dialog-copy"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><p class="confirmation-note">Consulta disponibilidad, presentaciones y valor final con Dulce Crucita.</p><a id="dialog-order" class="button pink" href="https://wa.me/573127881069" target="_blank" rel="noopener">Consultar por WhatsApp ↗</a></div></div></dialog>
+<script src="app.js"></script>
+</body></html>
