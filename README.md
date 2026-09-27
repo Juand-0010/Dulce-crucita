@@ -20,6 +20,12 @@ Las fotografías y fichas se obtuvieron de los canales públicos suministrados p
 
 ## Archivos
 
-`dist/index.html`, `dist/style.css` y `dist/app.js` contienen la web. `dist/assets/` contiene los recursos de la marca. No hay pagos ni almacenamiento de datos de clientes. Los botones abren el formulario oficial o WhatsApp; el visitante debe enviar su consulta allí.
+`dist/index.html`, `dist/style.css` y `dist/app.js` contienen la web. `ssets/` contiene los recursos de la marca. No hay pagos ni almacenamiento de datos de clientes. Los botones abren el formulario oficial o WhatsApp; el visitante debe enviar su consulta allí.
 
 Para abrir una vista previa local, sirve la carpeta `dist` con cualquier servidor HTTP estático. Los enlaces a redes sociales y pedidos requieren conexión a internet. Las fuentes usan Google Fonts, con fuentes del sistema como respaldo.
+
+## Publicación
+
+Sitio: https://juand-0010.github.io/Dulce-crucita/
+
+GitHub Pages publica desde la raíz de la rama main. Cada cambio enviado a esa rama actualiza la página. El archivo .nojekyll permite servir los recursos estáticos directamente.
