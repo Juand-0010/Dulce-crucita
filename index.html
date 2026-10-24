@@ -5,6 +5,14 @@
   <title>Dulce Crucita · Repostería artesanal en Cali</title>
   <meta name="description" content="Tortas, alfajores, brownies y galletas artesanales en Cali. Descubre Dulce Crucita y cuéntanos qué quieres para tu próximo momento dulce.">
   <meta name="theme-color" content="#491c32">
+  <link rel="canonical" href="https://juand-0010.github.io/Dulce-crucita/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Dulce Crucita">
+  <meta property="og:title" content="Dulce Crucita · Repostería artesanal en Cali">
+  <meta property="og:description" content="Tortas, alfajores, brownies y galletas hechas a mano en Cali. Encuentra tu próximo momento dulce.">
+  <meta property="og:url" content="https://juand-0010.github.io/Dulce-crucita/">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c63782'/%3E%3Ctext x='32' y='46' fill='white' text-anchor='middle' font-family='Georgia' font-size='44'%3Ec%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap" rel="stylesheet">
@@ -15,7 +23,8 @@
 <a class="skip" href="#coleccion">Ir al catálogo</a>
 <header class="header" id="header">
   <a class="brand" href="#inicio" aria-label="Dulce Crucita, inicio"><img src="assets/marca.jpg" alt="" width="48" height="48"><span>Dulce Crucita<small>REPOSTERÍA ARTESANAL</small></span></a>
-  <nav aria-label="Navegación principal"><a href="#coleccion">Nuestros dulces</a><a href="#esencia">Nuestra esencia</a><a href="#pedido" class="nav-order">Haz tu pedido <span aria-hidden="true">↗</span></a></nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span></button>
+  <nav id="main-nav" aria-label="Navegación principal"><a href="#coleccion">Nuestros dulces</a><a href="#esencia">Nuestra esencia</a><a href="#pedido" class="nav-order">Haz tu pedido <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main>
 <section class="journey" id="inicio" aria-label="Los momentos de Dulce Crucita">
@@ -34,7 +43,8 @@
   <div class="section-top"><p class="eyebrow">NUESTRA COLECCIÓN</p><span class="small-note">De nuestra cocina a tus momentos.</span></div>
   <div class="collection-heading"><h2>¿Qué se te<br><em>antoja hoy?</em></h2><p>Tortas para celebrar, cajitas para compartir y esos gustos que no necesitan una ocasión.</p></div>
   <div class="categories" aria-label="Categorías del catálogo"><button data-category="tortas" aria-pressed="true">Tortas <sup>05</sup></button><button data-category="brownies" aria-pressed="false">Brownies <sup>03</sup></button><button data-category="alfajores" aria-pressed="false">Alfajores <sup>02</sup></button><button data-category="galletas" aria-pressed="false">Galletas <sup>01</sup></button></div>
-  <div id="products" class="products" aria-live="polite"></div>
+  <p id="catalog-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+  <div id="products" class="products" aria-label="Productos disponibles"></div>
   <p class="catalog-note">Cada pedido se confirma contigo: disponibilidad, valor final y tiempos de entrega.</p>
   <noscript><p>Consulta todos los productos en <a href="https://linktr.ee/dulcecrucita">nuestro catálogo</a>.</p></noscript>
 </section>
