@@ -15,7 +15,8 @@
 <a class="skip" href="#coleccion">Ir al catálogo</a>
 <header class="header" id="header">
   <a class="brand" href="#inicio" aria-label="Dulce Crucita, inicio"><img src="assets/marca.jpg" alt="" width="48" height="48"><span>Dulce Crucita<small>REPOSTERÍA ARTESANAL</small></span></a>
-  <nav aria-label="Navegación principal"><a href="#coleccion">Nuestros dulces</a><a href="#esencia">Nuestra esencia</a><a href="#pedido" class="nav-order">Haz tu pedido <span aria-hidden="true">↗</span></a></nav>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span></button>
+  <nav id="main-nav" aria-label="Navegación principal"><a href="#coleccion">Nuestros dulces</a><a href="#esencia">Nuestra esencia</a><a href="#pedido" class="nav-order">Haz tu pedido <span aria-hidden="true">↗</span></a></nav>
 </header>
 <main>
 <section class="journey" id="inicio" aria-label="Los momentos de Dulce Crucita">
@@ -34,7 +35,8 @@
   <div class="section-top"><p class="eyebrow">NUESTRA COLECCIÓN</p><span class="small-note">De nuestra cocina a tus momentos.</span></div>
   <div class="collection-heading"><h2>¿Qué se te<br><em>antoja hoy?</em></h2><p>Tortas para celebrar, cajitas para compartir y esos gustos que no necesitan una ocasión.</p></div>
   <div class="categories" aria-label="Categorías del catálogo"><button data-category="tortas" aria-pressed="true">Tortas <sup>05</sup></button><button data-category="brownies" aria-pressed="false">Brownies <sup>03</sup></button><button data-category="alfajores" aria-pressed="false">Alfajores <sup>02</sup></button><button data-category="galletas" aria-pressed="false">Galletas <sup>01</sup></button></div>
-  <div id="products" class="products" aria-live="polite"></div>
+  <p id="catalog-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+  <div id="products" class="products" aria-label="Productos disponibles"></div>
   <p class="catalog-note">Cada pedido se confirma contigo: disponibilidad, valor final y tiempos de entrega.</p>
   <noscript><p>Consulta todos los productos en <a href="https://linktr.ee/dulcecrucita">nuestro catálogo</a>.</p></noscript>
 </section>
